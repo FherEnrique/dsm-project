@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342486261622",
+    "project_id": "appmoney-e76e4",
+    "storage_bucket": "appmoney-e76e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342486261622:android:059e0b5a57d86d67692457",
+        "android_client_info": {
+          "package_name": "app.wallet.client.netux.sv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342486261622-g46kpbia0csccehghvqljnhlc7nn8vd0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.wallet.client.netux.sv",
+            "certificate_hash": "972bc22649871f892c6aca364555af38562ed221"
+          }
+        },
+        {
+          "client_id": "342486261622-ne3bvd34js2i9b4b4n5ocghte74d8lil.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.wallet.client.netux.sv",
+            "certificate_hash": "0ebb8a3d2e2aa8c4df97e8d3faecd77052bbc5c7"
+          }
+        },
+        {
+          "client_id": "342486261622-ckr4ubf666gf754e9s5qpc5rdhvcfukv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxgzwYr59fVoTWBJec6uoohZN_CHjoohg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342486261622-ckr4ubf666gf754e9s5qpc5rdhvcfukv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">AppWallet</string>
+    <string name="comming_soon">Proximamente...</string>
+    <string name="web_client_id">342486261622-ckr4ubf666gf754e9s5qpc5rdhvcfukv.apps.googleusercontent.com</string>
+
+    <!-- NotConnectedActivity -->
+    <!--TextView -->
+    <string name="msgConnected">Lo sentimos, no se completó la conexión a nuestros servidores.</string>
+    <!--TextView End-->
+    <!--Button -->
+    <string name="btnIntentConnection">Intentar de nuevo</string>
+    <!--Button End-->
+    <!-- NotConnectedActivity End-->
+    <!-- LoginActivity -->
+    <!--TextView -->
+    <string name="tvAppName">App Wallet</string>
+    <!--TextView End-->
+    <!--EditText -->
+    <string name="edtEmail">Correo Electrónico</string>
+    <string name="edtPass">Contraseña</string>
+    <!--EditText End-->
+    <!--Buttons -->
+    <string name="btnLogin">Iniciar Sesión</string>
+    <string name="btnReg">Registrarse</string>
+    <string name="btnRestart">¿Olvidó su contraseña?</string>
+    <!--Buttons End-->
+    <!-- LoginActivity End-->
+    <!-- RegisterActivity-->
+    <!--EditText -->
+    <string name="edtPassConfirm">Confirmar Contraseña</string>
+    <!--EditText End-->
+    <!--Button -->
+    <string name="btnRegister">Crear Cuenta</string>
+    <!--Button End-->
+    <!-- RegisterActivity End-->
+    <!-- ForgotPasswordActivity-->
+    <!--Button -->
+    <string name="btnForgot">Restaurar</string>
+    <!--Button End-->
+    <!-- ForgotPasswordActivity End-->
+    <!-- TutorialActivity-->
+    <!--Button -->
+    <string name="btnNext">Siguiente</string>
+    <string name="btnBack">Saltar</string>
+    <!--Button End-->
+    <!-- TutorialActivity End-->
+    <!-- SettingsFragment -->
+    <!--TextView -->
+    <string name="msgTitleS">Cuenta</string>
+    <string name="msgCurrency">Moneda: USD($)</string>
+
+    <!--TextView End-->
+    <!--Button -->
+    <string name="btnLogout">Cerrar Sesión</string>
+    <string name="btnTutor">Ver Tutorial</string>
+    <!--Button End-->
+    <!-- SettingsFragment End-->
+    <!-- CategoryFragment -->
+    <!--TextView -->
+    <string name="msgTitleCategory">Categorías de Gastos</string>
+    <!--TextView End-->
+    <!-- CategoryFragment End-->
+    <!-- IncomeFragment -->
+    <!--TextView -->
+    <string name="msgTitleIncome">Ingresos</string>
+    <!--TextView End-->
+    <!-- IncomeFragment End-->
+    <!-- AddOrEditCategoryActivity -->
+    <string name="labelAddCategory">Categoría</string>
+    <!-- EditText-->
+    <string name="edtNameC">Nombre de la categoría</string>
+    <string name="edtDescritionC">Descripción de la categoría</string>
+    <!-- EditText End-->
+    <!-- AddOrEditCategoryActivity End-->
+    <!-- AddOrEditIncomeActivity-->
+    <string name="labelIncome">Ingresos</string>
+    <!-- EditText-->
+    <string name="edtAmountI">Monto del ingreso</string>
+    <string name="edtDescritionI">Descripción del ingreso</string>
+    <!-- EditText End-->
+    <!--TextView -->
+    <string name="msgRGI">Tipo de ingreso</string>
+    <!--TextView End-->
+    <!-- RadioB -->
+    <string name="rb1I">Cuenta de Ahorro</string>
+    <string name="rb2I">Cuenta Corriente</string>
+    <string name="rb3I">Préstamo</string>
+    <string name="rb4I">Otro</string>
+    <!-- RadioB End-->
+    <!-- AddOrEditIncomeActivity End-->
+    <!-- BillFragment -->
+    <!--TextView -->
+    <string name="msgTitleBill">Gastos</string>
+    <!--TextView End-->
+    <!-- BillFragment End-->
+    <!-- AddOrEditBillActivity-->
+    <!-- EditText-->
+    <string name="edtAmountB">Monto del gasto</string>
+    <string name="edtDescritionB">Descripción del gasto</string>
+    <!-- EditText End-->
+    <!--TextView -->
+    <string name="msgRGB">Categorías del gasto</string>
+    <!--TextView End-->
+    <!-- AddOrEditBillActivity End-->
+    <!-- ChartFragment -->
+    <!--TextView -->
+    <string name="btnGeneral">Gráfico General</string>
+    <string name="btnGeneralR">Resumen General</string>
+    <!--TextView End-->
+    <!-- ChartFragment End-->
+    <!-- ReportFragment -->
+    <!--TextView -->
+    <string name="msgIng">Ingresos</string>
+    <string name="msgGa">Gastos</string>
+    <string name="msgGene">Balance General</string>
+    <!-- ReportFragment -->
+
+</resources>

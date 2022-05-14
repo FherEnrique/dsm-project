@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/msgTitleS"
+        android:textAlignment="center"/>
+    <ImageView
+        android:id="@+id/photoProfile"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginVertical="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/tvAccountEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginVertical="10dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginVertical="10dp"
+        android:text="@string/msgCurrency" />
+    <Button
+        android:id="@+id/btnTutorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/turquiese"
+        android:textColor="@color/white"
+        android:text="@string/btnTutor"
+        android:paddingLeft="25dp"
+        android:drawableLeft="@drawable/ic_baseline_info_24"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:background="@color/turquiese"
+        android:textColor="@color/white"
+        android:text="@string/btnLogout"
+        android:paddingLeft="25dp"
+        android:drawableLeft="@drawable/ic_baseline_logout_24"
+        android:textSize="18sp" />
+</LinearLayout>

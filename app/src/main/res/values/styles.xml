@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- array backgrounds tutorial-->
+    <array name="array_background">
+        <item>@color/background_1</item>
+        <item>@color/background_2</item>
+        <item>@color/background_3</item>
+        <item>@color/background_4</item>
+        <item>@color/background_5</item>
+        <item>@color/background_6</item>
+    </array>
+    <!-- array dots tutorial-->
+    <array name="array_dot">
+        <item>@color/dot_1</item>
+        <item>@color/dot_2</item>
+        <item>@color/dot_3</item>
+        <item>@color/dot_4</item>
+        <item>@color/dot_5</item>
+        <item>@color/dot_6</item>
+    </array>
+</resources>

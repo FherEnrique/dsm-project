@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:src="@drawable/dollar"
+        android:layout_marginBottom="10dp"
+        tools:ignore="ContentDescription" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textAlignment="center"
+        android:text="@string/tvAppName"/>
+    <EditText
+        android:id="@+id/edtEmailR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edtEmail"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/edPassR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edtPass"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+    <EditText
+        android:id="@+id/edPassConfirmR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edtPassConfirm"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/turquiese"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:paddingStart="25dp"
+        android:drawableLeft="@drawable/ic_baseline_person_add_alt_1_24"
+        android:text="@string/btnRegister"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

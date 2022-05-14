@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linearradio"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditText
+        android:id="@+id/edtAmountBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginVertical="10dp"
+        android:hint="@string/edtAmountB"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/edtDescriptionBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:inputType="textMultiLine"
+        android:layout_marginVertical="10dp"
+        android:hint="@string/edtDescritionB" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginVertical="10dp"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:text="@string/msgRGB"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <RadioGroup
+            android:id="@+id/radioGroupBill"
+            android:paddingVertical="15dp"
+            android:layout_width="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_height="wrap_content">
+        </RadioGroup>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnAddBill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginVertical="10dp"
+        android:textColor="@color/white"
+        android:paddingStart="25dp"/>
+</LinearLayout>
